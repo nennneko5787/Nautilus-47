@@ -8,7 +8,7 @@ import json
 try:
 	from discordtoken import token
 except ImportError:
-	token = os.getenv('DISCORD_TOKEN_NEKOGLOBALCHAT')  #Your TOKEN
+	token = os.getenv('DISCORD_TOKEN_Nautilus-47')  #Your TOKEN
 from server import keep_alive
 
 global_channel_name = "neko-global-chat"  #設定したいチャンネル名を入力
